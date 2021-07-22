@@ -1,3 +1,5 @@
+cargo-features = ["edition2021"]
+
 [package]
 name = "git-interactive-rebase-tool"
 version = "2.1.0"
@@ -17,7 +19,7 @@ include = [
     "/readme",
     "/README.md"
 ]
-edition = "2018"
+edition = "2021"
 
 [[bin]]
 name = "interactive-rebase-tool"
